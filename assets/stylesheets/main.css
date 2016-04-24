@@ -46,3 +46,62 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after { /* the first 3 selectors select every element */
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+/* 
+  setting width lets the browser definitively how wide any
+  element with the class container should be. This is because
+  of box-sizing: border-box;
+  Using left right auto margin in conjunction lets browser automatically 
+  figure out equal left and right margins for the element, thus
+  centering content on page
+*/
+.container {
+	width: 960px;
+	padding: 0 30px;
+	margin: 0 auto; 
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1, h3, h4, h5, p {
+  margin-bottom: 22px;
+}
+
+.btn {
+	border-radius: 5px;
+	display: inline-block;
+	margin: 0;
+}
+
+.btn-alt {
+	border: 1px solid gray;
+	padding: 10px 30px
+}
+
+/*
+  ========================================
+  Home
+  ========================================
+*/
+
+.hero {
+  padding: 22px 80px 66px 80px;
+}
