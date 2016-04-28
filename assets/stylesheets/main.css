@@ -235,7 +235,7 @@ cite, em {
 
 .nav-primary {
 	font-size: 14px;
-	font-weight: 400px;
+	font-weight: 400;
 	letter-spacing: .5px;
 	text-transform: uppercase;
 }
@@ -329,7 +329,7 @@ p a {
 .nav li {
 	display: inline-block;
 	margin: 0 10px;
-	text-align: top;
+	vertical-align: top;
 }
 
 .nav li:last-child {
@@ -380,10 +380,49 @@ p a {
 	border: 1px solid #dfe2e5;
 	border-radius: 5px;
 	margin-top: 88px;
-	padding: 22px 0;
+	padding-bottom: 22px;
 	text-align: center;
 }
 
+
 .speaker {
 	margin-bottom: 44px;
+}
+
+.speaker-info img{
+	border-radius: 50%;
+	height: 130px;
+	margin: -66px 0 22px 0;
+	vertical-align: top;
+}
+
+/*
+  ========================================
+  Teaser
+  ========================================
+*/
+
+.teaser img {
+	max-width: 100%;
+	display: block;
+	margin-bottom: 22px;
+	border-radius: 5px;
+}
+
+/*
+  ========================================
+  Venue
+  ========================================
+*/
+
+.venue-map {
+	height: 264px;
+}
+
+.venue-theatre {
+	margin-bottom: 66px;
+}
+
+.venue-hotel {
+	margin-bottom: 22px;
 }
